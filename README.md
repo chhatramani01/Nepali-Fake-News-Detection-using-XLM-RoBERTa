@@ -3,6 +3,8 @@
 
 This project follows a systematic approach to fine-tune a multilingual Transformer model for a specific low-resource language task.
 
+## 📓 Open in Google Colab You can run the notebook directly in Google Colab by clicking the badge below: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZGEF6mx24GvQHclTMcKmvI6Z9kyObVHG?authuser=2)
+
 ## **Step 1: Environment Setup & Installations**
 
 The first step involves setting up the environment. The project is designed to run on a **GPU-enabled environment** (like Google Colab's T4 GPU). You must install the necessary Hugging Face and machine learning libraries:
