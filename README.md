@@ -44,7 +44,7 @@ The fine-tuning process is governed by specific parameters defined in `TrainingA
 
 ## **Step 6: Training (Fine-tuning)**
 
-The `Trainer` API is used to execute the training loop. During this stage:
+The `Trainer` is used to execute the training loop. During this stage:
 
 1. **Forward Pass:** The model makes predictions on a batch of Nepali news articles.  
 2. **Loss Calculation:** The difference between the prediction and the actual label is calculated.  
@@ -74,5 +74,5 @@ The final fine-tuned model achieved an impressive **99.49% Accuracy and F1 Score
 | 1    | Install Dependencies| `pip`, `transformers` |
 | 2    | Load Model/Tokenizer| `xlm-roberta-base` |
 | 3    | Preprocess Data     | `tokenizer.map()`  |
-| 4    | Fine-tune           | `Trainer API`      |
+| 4    | Fine-tune           | `Trainer`      |
 | 5    | Evaluate            | `Accuracy`, `F1 Score` |
